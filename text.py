@@ -41,10 +41,13 @@
 # thislist = ["apple", "banana", "cherry"]
 # for i in range(len(thislist)):
 #  print(i)
-thislist = ["apple", "banana", "cherry"]
-x=0
-while x<(len(thislist)):
-    print(thislist[x])
-    x = x + 1
+# thislist = ["apple", "banana", "cherry"]
+# x=0
+# while x<(len(thislist)):
+#     print(thislist[x])
+#     x = x + 1
+test = [1,5]
+test1 = [ i*3 for i in test ]
+print(test1)
 
 
