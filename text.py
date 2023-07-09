@@ -46,8 +46,20 @@
 # while x<(len(thislist)):
 #     print(thislist[x])
 #     x = x + 1
-test = [1,5]
-test1 = [ i*3 for i in test ]
-print(test1)
-
+# test = [1,4]
+# test1 = [j*3 for j in test]
+# print(test1)
+# thislist = ["b", "m", "d", "a", "c"]
+# thislist.sort()
+# print(thislist)
+#
+# thislist = [1,3,8,9]
+# thislist.sort()
+# print(thislist)
+#
+# thislist = [1,3,4,5]
+# thislist.sort(reverse=True)
+# print(thislist)
+# thislist.copy()
+# print(thislist)
 
