@@ -13,3 +13,8 @@ if 5 > 2:
 '''This is a comment
 written in 
 more than just one line'''
+# Exercise:
+# Create a variable named carname and assign the value Volvo to it.
+
+carname = "Volvo"
+print(carname)
