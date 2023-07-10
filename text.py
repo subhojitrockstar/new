@@ -82,4 +82,5 @@
 # reverse()	Reverses the order of the list
 # sort()	Sorts the list
 
-
+if 5 > 2:
+ print("Five is greater than two!")
