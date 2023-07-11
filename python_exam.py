@@ -58,3 +58,6 @@
 x=input("Enter number 1: ")
 y=input("Enter number 2: ")
 print(int(x)+int(y)) #typecasting
+x=int(input("Enter number 1: "))
+y=int(input("Enter number 2: "))
+print(x+y)
