@@ -55,9 +55,16 @@
 # print(b)  # মান ৫০ প্রিন্ট হবে
 # print(c)  # মান ৫০ প্রিন্ট হবে
 # Calculator
-x=input("Enter number 1: ")
-y=input("Enter number 2: ")
-print(int(x)+int(y)) #typecasting
-x=int(input("Enter number 1: "))
-y=int(input("Enter number 2: "))
-print(x+y)
+# x=input("Enter number 1: ")
+# y=input("Enter number 2: ")
+# print(int(x)+int(y)) #typecasting
+# x=int(input("Enter number 1: "))#typecasting
+# y=int(input("Enter number 2: "))#typecasting
+# print(x+y)
+#Practice if else
+# x=int(input("enter your age: "))
+# print("your age is",x)
+# if (x >= 18):
+#     print("ok")
+# else:
+#     print("not ok")
