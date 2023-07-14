@@ -82,3 +82,20 @@
 # reverse()	Reverses the order of the list
 # sort()	Sorts the list
 
+#tuple
+tlist=(1,2,3,6,5,9)
+z=(1,2,3,6,5,9)
+# print(type(tlist))
+# print(tlist)
+# print(tlist[0])
+# print(tlist[-1])
+# print(tlist[2:5])
+y= list(tlist)
+y.insert(0,"10")
+y.append("x")
+y.extend(z)
+
+tlist=tuple(y)
+print(type(tlist))
+print(tlist)
+
