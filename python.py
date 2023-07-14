@@ -83,19 +83,34 @@
 # sort()	Sorts the list
 
 #tuple
-tlist=(1,2,3,6,5,9)
-z=(1,2,3,6,5,9)
+# tlist=(1,2,3,6,5,9)
+# z=(1,2,3,6,5,9)
+# # print(type(tlist))
+# # print(tlist)
+# # print(tlist[0])
+# # print(tlist[-1])
+# # print(tlist[2:5])
+# y= list(tlist)
+# y.insert(0,"10")
+# y.append("x")
+# y.extend(z)
+# y.remove(9)
+# tlist=tuple(y)
 # print(type(tlist))
 # print(tlist)
-# print(tlist[0])
-# print(tlist[-1])
-# print(tlist[2:5])
-y= list(tlist)
-y.insert(0,"10")
-y.append("x")
-y.extend(z)
-y.remove(9)
-tlist=tuple(y)
-print(type(tlist))
-print(tlist)
-print(len(tlist))
+# print(len(tlist))
+# Unpack Tuples
+fruits = ("apple", "banana", "cherry",1,2)
+# (a,b,c) = fruits
+# (*a,) = fruits
+# print(a)
+# loop Tuples
+# for a in fruits:
+# for b in range(len(fruits)):
+#     # print(len(a))
+#     # print(a)
+#     print(b)
+i=0
+while i < len(fruits):
+    print(fruits[i])
+    i=i+1
