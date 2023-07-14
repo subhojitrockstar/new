@@ -94,8 +94,8 @@ y= list(tlist)
 y.insert(0,"10")
 y.append("x")
 y.extend(z)
-
+y.remove(9)
 tlist=tuple(y)
 print(type(tlist))
 print(tlist)
-
+print(len(tlist))
