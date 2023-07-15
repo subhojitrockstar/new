@@ -100,7 +100,7 @@
 # print(tlist)
 # print(len(tlist))
 # Unpack Tuples
-fruits = ("apple", "banana", "cherry",1,2)
+fruits = ("apple", "banana", "cherry")
 # (a,b,c) = fruits
 # (*a,) = fruits
 # print(a)
@@ -112,5 +112,6 @@ fruits = ("apple", "banana", "cherry",1,2)
 #     print(b)
 i=0
 while i < len(fruits):
+    print(fruits)
     print(fruits[i])
     i=i+1
