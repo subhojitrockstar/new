@@ -100,7 +100,7 @@
 # print(tlist)
 # print(len(tlist))
 # Unpack Tuples
-fruits = ("apple", "banana", "cherry")
+# fruits = ("apple", "banana", "cherry")
 # fruits2 = ("apple", "banana", "cherry")
 # (a,b,c) = fruits
 # (*a,) = fruits
@@ -120,5 +120,8 @@ fruits = ("apple", "banana", "cherry")
 # x = fruits + fruits2
 # print(x)
 # print(x*2)#multiply
-print(fruits.count("apple")) #count
-print(fruits.index("apple")) #index
+# print(fruits.count("apple")) #count
+# print(fruits.index("apple")) #index
+thisset = {"apple", "banana", "cherry"}#will ignore dublicate value and will print unorderway
+print(thisset)
+print(len(thisset))
