@@ -101,7 +101,7 @@
 # print(len(tlist))
 # Unpack Tuples
 fruits = ("apple", "banana", "cherry")
-fruits2 = ("apple", "banana", "cherry")
+# fruits2 = ("apple", "banana", "cherry")
 # (a,b,c) = fruits
 # (*a,) = fruits
 # print(a)
@@ -117,6 +117,8 @@ fruits2 = ("apple", "banana", "cherry")
 #     print(fruits[i])
 #     i=i+1
  #join tuple
-x = fruits + fruits2
-print(x)
-print(x*2)#multiply
+# x = fruits + fruits2
+# print(x)
+# print(x*2)#multiply
+print(fruits.count("apple")) #count
+print(fruits.index("apple")) #index
