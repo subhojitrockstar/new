@@ -119,3 +119,4 @@ fruits2 = ("apple", "banana", "cherry")
  #join tuple
 x = fruits + fruits2
 print(x)
+print(x*2)#multiply
