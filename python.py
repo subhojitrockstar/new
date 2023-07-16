@@ -122,19 +122,23 @@
 # print(x*2)#multiply
 # print(fruits.count("apple")) #count
 # print(fruits.index("apple")) #index
-thisset = {"apple", "banana", "cherry"}#will ignore dublicate value and will print unorderway
-thisset2 = {"apple", "banana", "cherry",1,3}
+# thisset = {"apple", "banana", "cherry"}#will ignore dublicate value and will print unorderway
+# thisset2 = {"apple", "banana", "cherry",1,3}
+# # print(thisset)
+# # print(len(thisset))
+# # print("apple" in thisset)
+# # for i in thisset:
+# #     print(i)
+# # i=0
+# # while i < len(thisset):
+# #     print(i)
+# #     print(thisset)
+# #     i=i+1
+# thisset.add(1)
 # print(thisset)
-# print(len(thisset))
-# print("apple" in thisset)
-# for i in thisset:
-#     print(i)
-# i=0
-# while i < len(thisset):
-#     print(i)
-#     print(thisset)
-#     i=i+1
-thisset.add(1)
-print(thisset)
-thisset.update(thisset2)
-print(thisset)
+# thisset.update(thisset2)
+# print(thisset)
+# n = 6
+# for i in range(n):
+#     print(i * i)
+
