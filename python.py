@@ -142,3 +142,12 @@
 # for i in range(n):
 #     print(i * i)
 
+#remove set
+thisset = {"apple", "banana", "cherry",3}
+# # thisset.remove("apple")
+# thisset.discard(3)
+# thisset.pop()
+# print(thisset)
+for i in thisset:
+    print(i)
+
