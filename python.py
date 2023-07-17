@@ -143,14 +143,21 @@
 #     print(i * i)
 
 #remove set
-thisset = {"apple", "banana", "cherry",3}
-thisset2 = {"apple", "banana", "cherry",5}
-# # thisset.remove("apple")
-# thisset.discard(3)
-# thisset.pop()
-# print(thisset)
-# for i in thisset:
-#     print(i)
-set3 = thisset.union(thisset2)
-print(set3)
-
+# thisset = {"apple", "banana", "cherry",3}
+# thisset2 = {"apple", "banana", "cherry",5}
+# # # thisset.remove("apple")
+# # thisset.discard(3)
+# # thisset.pop()
+# # print(thisset)
+# # for i in thisset:
+# #     print(i)
+# set3 = thisset.union(thisset2)
+# print(set3)
+fruits = {"apple", "banana", "cherry"}
+# fruits.add("orage")
+# print(fruits)
+# more_fruits = ["orange", "mango", "grapes"]
+# fruits.update(more_fruits)
+# fruits.remove("banana")
+fruits.discard("banana")
+print(fruits)
