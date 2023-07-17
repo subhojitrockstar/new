@@ -153,11 +153,29 @@
 # #     print(i)
 # set3 = thisset.union(thisset2)
 # print(set3)
-fruits = {"apple", "banana", "cherry"}
-# fruits.add("orage")
+# fruits = {"apple", "banana", "cherry"}
+# # fruits.add("orage")
+# # print(fruits)
+# # more_fruits = ["orange", "mango", "grapes"]
+# # fruits.update(more_fruits)
+# # fruits.remove("banana")
+# fruits.discard("banana")
 # print(fruits)
-# more_fruits = ["orange", "mango", "grapes"]
-# fruits.update(more_fruits)
-# fruits.remove("banana")
-fruits.discard("banana")
-print(fruits)
+#python dictionary
+thisdict = {
+  "Car details": {
+    "Brand":"Ford",
+  "electric": False,
+  "year": 1964,
+  "colors": ["red", "white", "blue"]
+  },
+    "Car details2": {
+    "Brand": "Hundai",
+    "electric": True,
+    "year": 2023,
+    "colors": ["red", "white", "black"]
+  }
+ }
+print(thisdict)
+print(thisdict["Car details"])
+print(thisdict["Car details2"]["colors"])
