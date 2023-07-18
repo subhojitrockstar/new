@@ -193,4 +193,14 @@ thisdict = {
 # thisdict.popitem()
 # print(thisdict)
 
+# for x in thisdict:
+#   # print(x)
+#   print(thisdict[x])
+# for x in thisdict.values():
+#   print(x)
+# for x in thisdict.keys():
+#   print(x)
+# for x in thisdict.items():
+#   print(x)
+# print(thisdict.copy())
 
