@@ -189,4 +189,8 @@ thisdict = {
 # thisdict.update({"Car details":"Car is good"})
 # print(thisdict["Car details"])
 
+# thisdict.pop("Car details")
+# thisdict.popitem()
+# print(thisdict)
+
 
