@@ -203,4 +203,16 @@ thisdict = {
 # for x in thisdict.items():
 #   print(x)
 # print(thisdict.copy())
-
+# car =	{
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+# # print(car.get("model"))
+# # car["color"]= "red"
+# # print(car)
+# car.pop("model")
+# print(car)
+#
+# car.clear()
+# print(car)
