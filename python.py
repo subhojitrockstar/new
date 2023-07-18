@@ -172,10 +172,18 @@ thisdict = {
     "Car details2": {
     "Brand": "Hundai",
     "electric": True,
-    "year": 2023,
     "colors": ["red", "white", "black"]
-  }
+  },
+ "year": 2023,
  }
+# print(thisdict)
+# print(thisdict["Car details"])
+# print(thisdict["Car details2"]["colors"])
+
+# print(thisdict["year"])
+# print(thisdict.get("Car details2"))
+# print(thisdict.keys())
+# print(thisdict.values())
+thisdict["year"]=2024
 print(thisdict)
-print(thisdict["Car details"])
-print(thisdict["Car details2"]["colors"])
+
