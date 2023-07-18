@@ -184,6 +184,9 @@ thisdict = {
 # print(thisdict.get("Car details2"))
 # print(thisdict.keys())
 # print(thisdict.values())
-thisdict["year"]=2024
-print(thisdict)
+# thisdict["year"]=2024
+# print(thisdict["year"])
+# thisdict.update({"Car details":"Car is good"})
+# print(thisdict["Car details"])
+
 
