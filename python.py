@@ -243,4 +243,20 @@ thisdict = {
 # fruits = ["apple", "banana", "cherry"]
 # for x in fruits:
 #   print(x)
+# functions
+# def raj(a,b):
+#      sum= a + b
+#      sum1 = a - b
+#      sum2 = a * b
+#      print("\n", sum,"\n",sum2,"\n",sum1)
+# raj(20,50)
+def raj():
+    a = int(input("Enter the first number: "))
+    b = int(input("Enter the second number: "))
+    sum = a + b
+    sum1 = a - b
+    sum2 = a * b
+    print("\n", sum, "\n", sum2, "\n", sum1)
+raj()
+
 
