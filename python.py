@@ -215,11 +215,23 @@ thisdict = {
 # print(car)
 # car.clear()
 # print(car)
+# a = 33
+# b = 200
+# if b < a:
+#   print("b is greater than a")
+# if b > a:
+#     print("Ok")
+# else:
+#   print("ignore")
 a = 33
 b = 200
 if b < a:
   print("b is greater than a")
-if b > a:
+elif b > a:
     print("Ok")
+elif b == a:
+    print("ok ok")
+elif b != a:
+    print("ok ok")
 else:
   print("ignore")
