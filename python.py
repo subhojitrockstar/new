@@ -235,3 +235,12 @@ thisdict = {
 #     print("ok ok")
 # else:
 #   print("ignore")
+# loops
+# a=0
+# while a < 10:
+#     print("fine",a)
+#     a=a+1
+# fruits = ["apple", "banana", "cherry"]
+# for x in fruits:
+#   print(x)
+
