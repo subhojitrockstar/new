@@ -250,13 +250,46 @@ thisdict = {
 #      sum2 = a * b
 #      print("\n", sum,"\n",sum2,"\n",sum1)
 # raj(20,50)
-def raj():
-    a = int(input("Enter the first number: "))
-    b = int(input("Enter the second number: "))
-    sum = a + b
-    sum1 = a - b
-    sum2 = a * b
-    print("\n", sum, "\n", sum2, "\n", sum1)
-raj()
-
-
+# def raj():
+#     a = int(input("Enter the first number: "))
+#     b = int(input("Enter the second number: "))
+#     sum = a + b
+#     sum1 = a - b
+#     sum2 = a * b
+#     print("\n", sum, "\n", sum2, "\n", sum1)
+# raj()
+# if 5 > 2:print("Five is greater than two!")
+# print("Yes") if 5 > 2 else print("No")
+# i = 1
+# while i < 6:
+#     if i == 3:
+#       break
+#     i += 1
+# i = 1
+# while i < 6:
+#   print(i)
+#   i += 1
+# else:
+#   print("i is no longer less than 6")
+# def my_function(fname, lname):
+#   print(fname)
+# def my_function(fname):
+#   print(fname + " Refsnes")
+#
+# my_function("Emil")
+# my_function("Tobias")
+# my_function("Linus")
+# def my_function(fname, lname):
+#   print(fname + " " + lname)
+#
+# my_function("Emil", "Refsnes")
+#
+# def my_function(*kids):
+#   print("The youngest child is " + kids[1])
+#
+# my_function("Emil", "Tobias", "Linus")
+# def my_function(child3, child2, child1):
+#     print("The youngest child is " + child3)
+#
+#
+# my_function(child1="Emil", child2="Tobias", child3="Linus")
