@@ -223,15 +223,15 @@ thisdict = {
 #     print("Ok")
 # else:
 #   print("ignore")
-a = 33
-b = 200
-if b < a:
-  print("b is greater than a")
-elif b > a:
-    print("Ok")
-elif b == a:
-    print("ok ok")
-elif b != a:
-    print("ok ok")
-else:
-  print("ignore")
+# a = 33
+# b = 200
+# if b < a:
+#   print("b is greater than a")
+# elif b > a:
+#     print("Ok")
+# elif b == a:
+#     print("ok ok")
+# elif b != a:
+#     print("ok ok")
+# else:
+#   print("ignore")
