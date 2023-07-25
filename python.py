@@ -162,20 +162,20 @@
 # fruits.discard("banana")
 # print(fruits)
 #python dictionary
-thisdict = {
-  "Car details": {
-    "Brand":"Ford",
-  "electric": False,
-  "year": 1964,
-  "colors": ["red", "white", "blue"]
-  },
-    "Car details2": {
-    "Brand": "Hundai",
-    "electric": True,
-    "colors": ["red", "white", "black"]
-  },
- "year": 2023,
- }
+# thisdict = {
+#   "Car details": {
+#     "Brand":"Ford",
+#   "electric": False,
+#   "year": 1964,
+#   "colors": ["red", "white", "blue"]
+#   },
+#     "Car details2": {
+#     "Brand": "Hundai",
+#     "electric": True,
+#     "colors": ["red", "white", "black"]
+#   },
+#  "year": 2023,
+#  }
 # print(thisdict)
 # print(thisdict["Car details"])
 # print(thisdict["Car details2"]["colors"])
