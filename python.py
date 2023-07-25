@@ -328,3 +328,13 @@
 # #lambda
 # x = lambda a,b: a+b
 # print(x(10,20))
+#class & object
+class raj:
+    age=""
+    Mobile=""
+    surname=""
+a=raj()
+a.age=29
+a.mobile=977508504
+print("\n",a.age,"\n",a.mobile)
+
