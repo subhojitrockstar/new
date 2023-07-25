@@ -321,6 +321,7 @@ thisdict = {
 #     re(x-1)
 # re(6)
 # Zip
-# fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
-# num = [1,2,3,4]
-# print(list(zip(fruits,num)))
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+num = [1,2,3,4]
+print(list(zip(fruits,num)))
+#debugging
