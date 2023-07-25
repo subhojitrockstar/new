@@ -329,12 +329,21 @@
 # x = lambda a,b: a+b
 # print(x(10,20))
 #class & object
-class raj:
-    age=""
-    Mobile=""
-    surname=""
-a=raj()
-a.age=29
-a.mobile=977508504
-print("\n",a.age,"\n",a.mobile)
-
+# class raj:
+#     age=""
+#     Mobile=""
+#     surname=""
+# a=raj()
+# a.age=29
+# a.mobile=977508504
+# print("\n",a.age,"\n",a.mobile)
+#
+# Inheritance
+class Subhojit:
+    Mobile = ""
+    macbook = ""
+class Anirban(Subhojit):
+    nokia = ""
+x = Anirban()
+x.macbook = "Apple"  # Assign the value "Apple" to the macbook attribute
+print(x.macbook)  # Output: Apple
