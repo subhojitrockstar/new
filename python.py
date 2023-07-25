@@ -338,12 +338,36 @@
 # a.mobile=977508504
 # print("\n",a.age,"\n",a.mobile)
 #
-# Inheritance
+# Multiple Inheritance
+# class Subhojit:
+#     Mobile = ""
+#     macbook = ""
+#
+# class swag:
+#         tv = ""
+#         fridge = ""
+# class Anirban(Subhojit,swag):
+#     nokia = ""
+# x = Anirban()
+# x.macbook = "Apple" # Assign the value "Apple" to the macbook attribute
+# x.tv="samsung"
+#
+# print("\n",x.macbook,"\n",x.tv)  # Output: Apple
+
+# Multilevel Inheritance
 class Subhojit:
     Mobile = ""
     macbook = ""
-class Anirban(Subhojit):
+
+class swag(Subhojit):
+        tv = ""
+        fridge = ""
+class Anirban(swag):
     nokia = ""
 x = Anirban()
-x.macbook = "Apple"  # Assign the value "Apple" to the macbook attribute
-print(x.macbook)  # Output: Apple
+y = swag()
+x.macbook = "Apple" # Assign the value "Apple" to the macbook attribute
+x.tv="samsung"
+y.fridge="LG"
+
+print("\n",x.macbook,"\n",x.tv,"\n",y.fridge)  # Output: Apple
