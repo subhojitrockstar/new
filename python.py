@@ -354,20 +354,20 @@
 #
 # print("\n",x.macbook,"\n",x.tv)  # Output: Apple
 
-# Multilevel Inheritance
-class Subhojit:
-    Mobile = ""
-    macbook = ""
-
-class swag(Subhojit):
-        tv = ""
-        fridge = ""
-class Anirban(swag):
-    nokia = ""
-x = Anirban()
-y = swag()
-x.macbook = "Apple" # Assign the value "Apple" to the macbook attribute
-x.tv="samsung"
-y.fridge="LG"
-
-print("\n",x.macbook,"\n",x.tv,"\n",y.fridge)  # Output: Apple
+# # Multilevel Inheritance
+# class Subhojit:
+#     Mobile = ""
+#     macbook = ""
+#
+# class swag(Subhojit):
+#         tv = ""
+#         fridge = ""
+# class Anirban(swag):
+#     nokia = ""
+# x = Anirban()
+# y = swag()
+# x.macbook = "Apple" # Assign the value "Apple" to the macbook attribute
+# x.tv="samsung"
+# y.fridge="LG"
+#
+# print("\n",x.macbook,"\n",x.tv,"\n",y.fridge)
