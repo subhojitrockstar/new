@@ -408,6 +408,8 @@
 #     print("Not Weird")
 # else:
 #     print('Weird')
-
-
-
+# #Iterator
+# mylist=[1,12,5,2,3,"subho"]
+#
+# x = iter(mylist)
+# print(next(x))
