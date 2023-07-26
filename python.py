@@ -388,15 +388,26 @@
 #
 # year = int(input("Enter a year: "))
 # print(leap(year))
-def leap():
-    year=int(input("Enter a year: "))
-    if year % 400 == 0:
-        return True
-    elif year % 100 == 0:
-        return False
-    elif year % 4 == 0:
-        return True
-    else:
-        return False
-print(leap())
+# def leap():
+#     year=int(input("Enter a year: "))
+#     if year % 400 == 0:
+#         return True
+#     elif year % 100 == 0:
+#         return False
+#     elif year % 4 == 0:
+#         return True
+#     else:
+#         return False
+# print(leap())
+# Number = int(input("Enter a number:"))
+# if Number % 2 == 0 and 2 <= Number <= 5:
+#     print("Not Weird")
+# elif Number % 2 == 0 and 6 <= Number <= 20:
+#     print("Weird")
+# elif Number % 2 == 0 and Number > 20:
+#     print("Not Weird")
+# else:
+#     print('Weird')
+
+
 
