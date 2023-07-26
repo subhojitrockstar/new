@@ -371,3 +371,32 @@
 # y.fridge="LG"
 #
 # print("\n",x.macbook,"\n",x.tv,"\n",y.fridge)
+# def leap(year):
+#     leap=False
+#
+#
+#     # Check conditions to determine if it's a leap year
+#     if year % 4 == 0:
+#         if year % 100 == 0:
+#             if year % 400 == 0:
+#                 leap = True
+#         else:
+#             leap = True
+#
+#     return leap
+#
+#
+# year = int(input("Enter a year: "))
+# print(leap(year))
+def leap():
+    year=int(input("Enter a year: "))
+    if year % 400 == 0:
+        return True
+    elif year % 100 == 0:
+        return False
+    elif year % 4 == 0:
+        return True
+    else:
+        return False
+print(leap())
+
