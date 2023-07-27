@@ -413,3 +413,13 @@
 #
 # x = iter(mylist)
 # print(next(x))
+# #SCOPE
+# a = 30 #Global
+# b= 50
+# def subho():
+#     global a #to chnge global value
+#     a=50
+#     x=100#local
+#     print(x)
+# subho()
+# print(a,b)
