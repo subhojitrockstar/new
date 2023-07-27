@@ -423,3 +423,9 @@
 #     print(x)
 # subho()
 # print(a,b)
+# # DateTime
+# import datetime
+# x = datetime.datetime.now()
+# print(x)
+# print(x.strftime("%A"))
+#Math
