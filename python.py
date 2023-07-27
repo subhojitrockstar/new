@@ -428,7 +428,7 @@
 # x = datetime.datetime.now()
 # print(x)
 # print(x.strftime("%A"))
-#Math
+
 # class Person:
 #   def __init__(self, fname):
 #     self.firstname = fname
@@ -441,3 +441,17 @@
 #
 # x = Student("Mike")
 # x.printname()
+
+#Math
+
+# a=min(12,1,2,)
+# b=max(12,1,2,)
+# c = abs(-100)#to make positive
+# d = pow(100,2)
+# print(a)
+# print(b)
+# print(c)
+# print(d)
+
+#Regular Expression
+
