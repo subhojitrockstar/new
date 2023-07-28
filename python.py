@@ -454,14 +454,21 @@
 # print(d)
 
 #Regular Expression
-import re
-a = "1 is a number"
-# b=re.findall("[a-z]",a)
-# print(b)
-pattern = "^1"
-b=re.findall(pattern,a)
-if b:
-   print("ok")
-else:
-   print("Not ok")
+# import re
+# a = "1 is a number"
+# # b=re.findall("[a-z]",a)
+# # print(b)
+# pattern = "^1"
+# b=re.findall(pattern,a)
+# if b:
+#    print("ok")
+# else:
+#    print("Not ok")
+
+
+# try:
+#    print("Hello world")
+# except:
+#    print(x)
+# print("Hello world2")
 
