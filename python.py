@@ -472,3 +472,8 @@
 #    print(x)
 # print("Hello world2")
 
+# File Open
+
+# pdf=open("test.txt","r")
+#
+# print(pdf.read())
