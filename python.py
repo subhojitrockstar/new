@@ -477,3 +477,11 @@
 # pdf=open("test.txt","r")
 #
 # print(pdf.read())
+
+
+# File write
+
+# writetext= open("text.html","w")
+# writetext.write("<h1>test</h>")
+# writetext= open("test.txt","w")
+# writetext.write("<h1>test</h>")
