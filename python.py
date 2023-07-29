@@ -488,4 +488,6 @@
 # import os
 # # os.remove("text.html")
 # os.rmdir("ab") # for dlt folder
+import mo as a
+a.subho()
 
