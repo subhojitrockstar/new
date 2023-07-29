@@ -485,3 +485,7 @@
 # writetext.write("<h1>test</h>")
 # writetext= open("test.txt","w")
 # writetext.write("<h1>test</h>")
+# import os
+# # os.remove("text.html")
+# os.rmdir("ab") # for dlt folder
+
