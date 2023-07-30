@@ -493,3 +493,9 @@
 # from mo import subho
 # subho()
 
+# Constructor
+class subhoo:
+    def __init__(self, name, age):
+    # def jit(self,name,age):
+        print(f"Name:{name},& Age:{age}")
+s = subhoo("Jit",29)
