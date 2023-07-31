@@ -306,11 +306,11 @@
 # list comprehension
 # fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 # newlist = []
-# 
+#
 # for x in fruits:
 #   if "a" in x:
 #     newlist.append(x)
-# 
+#
 # print(newlist)
 #recursion
 # def re(x):
@@ -499,3 +499,17 @@
 #     # def jit(self,name,age):
 #         print(f"Name:{name},& Age:{age}")
 # s = subhoo("Jit",29)
+# #Method
+# class name:
+#     def instancemethod(self):
+#         print("ok")
+#     @classmethod
+#     def classmethod(cls):
+#             print("ok ok")
+#     @staticmethod
+#     def staticmethod():
+#             print("ok ok o")
+# a1=name()
+# a1.instancemethod()
+# name.staticmethod()
+# name.classmethod()
