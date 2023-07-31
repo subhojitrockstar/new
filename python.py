@@ -513,3 +513,25 @@
 # a1.instancemethod()
 # name.staticmethod()
 # name.classmethod()
+# # polymorphism
+# class Animal:
+#     def speak(self):
+#         print("Animal speaks!")
+#
+# class Dog(Animal):
+#     def speak(self):
+#         print("Dog barks!")
+#
+# class Cat(Animal):
+#     def speak(self):
+#         print("Cat meows!")
+#
+# # Creating instances of the classes
+# animal1 = Animal()
+# dog1 = Dog()
+# cat1 = Cat()
+#
+# # Calling the function with different objects
+# animal1.speak()  # Output: "Animal speaks!"
+# dog1.speak()     # Output: "Dog barks!"
+# cat1.speak()     # Output: "Cat meows!"
