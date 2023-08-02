@@ -535,3 +535,11 @@
 # animal1.speak()  # Output: "Animal speaks!"
 # dog1.speak()     # Output: "Dog barks!"
 # cat1.speak()     # Output: "Cat meows!"
+# Encapsulation
+# class Parent:
+#     def __init__(self, Name, Father):
+#         self.__name = Name # Encapsulation
+#         self.father = Father
+#
+# p1 = Parent("Subho", "Nirmal")
+# print(p1.name)  # Output: "Subho"
