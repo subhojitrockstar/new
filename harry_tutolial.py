@@ -12,4 +12,5 @@ try:
     else:
         print("You are late")
 except ValueError:
-    print("Invalid time format. Please enter time in the format HH:MM.")
+    print("Invalid time Format. Please enter time in the format HH:MM.")
+
