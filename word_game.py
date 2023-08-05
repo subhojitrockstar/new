@@ -1,102 +1,108 @@
 import tkinter as tk
 import random
-import string
 
-# List of words for the crossword puzzle
-word_list = ['crossword', 'letter', 'grid', 'python', 'game', 'puzzle', 'word']
-
-# Dictionary of clues for each word
-clues = {
-    'crossword': "Clue for 'crossword' goes here.",
-    'letter': "Clue for 'letter' goes here.",
-    'grid': "Clue for 'grid' goes here.",
-    'python': "Clue for 'python' goes here.",
-    'game': "Clue for 'game' goes here.",
-    'puzzle': "Clue for 'puzzle' goes here.",
-    'word': "Clue for 'word' goes here.",
+# List of words for each level
+word_list = {
+    "easy": ["apple", "banana", "cherry", "orange", "grape"],
+    "medium": ["elephant", "giraffe", "zebra", "kangaroo", "ostrich"],
+    "hard": ["python", "javascript", "java", "cplusplus", "ruby"],
 }
 
-# Function to scramble a word
-def scramble_word(word):
-    word_list = list(word)
-    random.shuffle(word_list)
-    return ''.join(word_list)
-
-# Create the main window
-window = tk.Tk()
-window.title("Word Game")
-window.geometry("400x400")
+# Initialize variables
+player_name = ""
+level = ""
+score = 0
+current_word_index = 0
+current_word = ""
 
 # Function to start the game
 def start_game():
+    global player_name, level
     player_name = name_entry.get().strip()
-    if not player_name:
-        return
+    level = level_var.get()
+    if player_name == "":
+        tk.messagebox.showwarning("Error", "Please enter your name!")
+    else:
+        start_button.destroy()
+        name_entry.destroy()
+        level_label.destroy()
+        level_menu.destroy()
+        welcome_label.config(text=f"Welcome, {player_name}!")
+        display_word()
 
-    # Remove the GUI elements related to name entry and level selection
-    welcome_label.pack_forget()
-    name_label.pack_forget()
-    name_entry.pack_forget()
-    start_button.pack_forget()
-
-    # Create GUI elements for the game
-    level_label = tk.Label(window, text="Select level:")
-    level_label.pack(pady=10)
-
-    level_var = tk.StringVar()
-    level_var.set("Easy")
-    level_menu = tk.OptionMenu(window, level_var, "Easy", "Medium", "Hard")
-    level_menu.pack()
-
-    word_label = tk.Label(window, text="", font=("Arial", 20))
-    word_label.pack(pady=20)
-
-    score = 0
-    current_word_index = 0
-
-    def display_word():
-        nonlocal current_word_index
-        word = word_list[current_word_index]
-        misspelled_word = scramble_word(word)
-        word_label.config(text=f"Correct this word: {misspelled_word}")
-
-    def submit_word():
-        nonlocal current_word_index, score
-        entered_word = word_entry.get().strip().lower()
-        correct_word = word_list[current_word_index].lower()
-        if entered_word == correct_word:
-            score += 1
+# Function to display a misspelled word for the user to correct
+def display_word():
+    global current_word_index, current_word
+    if current_word_index < len(word_list[level]):
+        current_word = word_list[level][current_word_index]
+        mixed_word = list(current_word)
+        random.shuffle(mixed_word)
+        misspelled_word.set("".join(mixed_word))
         current_word_index += 1
-        if current_word_index < len(word_list):
-            display_word()
-            update_score()
+    else:
+        finish_game()
 
-    def update_score():
-        score_label.config(text=f"Score: {score}/{len(word_list)}")
-
-    word_entry = tk.Entry(window, font=("Arial", 16))
-    word_entry.pack(pady=10)
-
-    submit_button = tk.Button(window, text="Submit", command=submit_word)
-    submit_button.pack(pady=10)
-
-    score_label = tk.Label(window, text=f"Score: {score}/{len(word_list)}", font=("Arial", 16))
-    score_label.pack(pady=10)
-
+# Function to submit the corrected word
+def submit_word():
+    global score
+    if corrected_word.get().strip() == current_word:
+        score += 1
     display_word()
+    update_score()
 
-# Create GUI elements for name input and level selection
-welcome_label = tk.Label(window, text="Welcome to Word Game!", font=("Arial", 20))
-welcome_label.pack(pady=20)
+# Function to update the score label
+def update_score():
+    score_label.config(text=f"Score: {score}/{len(word_list[level])}")
 
-name_label = tk.Label(window, text="Enter your name:")
-name_label.pack()
+# Function to finish the game
+def finish_game():
+    word_label.destroy()
+    corrected_word_entry.destroy()
+    submit_button.destroy()
+    score_label.config(text=f"Final Score: {score}/{len(word_list[level])}")
 
-name_entry = tk.Entry(window, font=("Arial", 16))
-name_entry.pack(pady=10)
+# Create the main window
+root = tk.Tk()
+root.title("Word Game")
+root.geometry("400x300")
 
-start_button = tk.Button(window, text="Start", command=start_game)
+# Welcome label
+welcome_label = tk.Label(root, text="Enter your name and select a level to start the game.")
+welcome_label.pack(pady=10)
+
+# Player name entry
+name_entry = tk.Entry(root)
+name_entry.pack()
+
+# Level selection menu
+level_var = tk.StringVar()
+level_var.set("easy")
+level_label = tk.Label(root, text="Select Level:")
+level_label.pack()
+level_menu = tk.OptionMenu(root, level_var, "easy", "medium", "hard")
+level_menu.pack()
+
+# Start button
+start_button = tk.Button(root, text="Start", command=start_game)
 start_button.pack(pady=10)
 
+# Misspelled word display
+misspelled_word = tk.StringVar()
+word_label = tk.Label(root, textvariable=misspelled_word, font=("Arial", 24))
+word_label.pack(pady=20)
+
+# Entry for corrected word
+corrected_word = tk.StringVar()
+corrected_word_entry = tk.Entry(root, textvariable=corrected_word, font=("Arial", 16))
+corrected_word_entry.pack()
+
+# Submit button
+submit_button = tk.Button(root, text="Submit", command=submit_word)
+submit_button.pack(pady=10)
+
+# Score label
+score_label = tk.Label(root, text="")
+score_label.pack()
+
 # Run the main loop
-window.mainloop()
+root.mainloop()
