@@ -1,16 +1,9 @@
-import datetime
-
-try:
-    login_str = input("Please put your entered time (format: HH:MM): ")
-    login_time = datetime.datetime.strptime(login_str, "%H:%M")
-    login_hour = login_time.hour
-
-    if login_hour >=9 and login_hour== 9:
-        print("Good morning")
-    elif login_hour >=4 and login_hour== 4:
-        print("Good afternoon")
-    else:
-        print("You are late")
-except ValueError:
-    print("Invalid time Format. Please enter time in the format HH:MM.")
-
+# # Interest Calculator
+# loan_amount = int(input("Type loan amount: "))
+# years = float(input("Type loan time: "))
+# rate = float(input("Type loan rate: "))
+#
+# interest = loan_amount * years * rate / 100
+# print("The interest is: " + str(interest))
+# print(f"The loan amount is: {loan_amount} and the interest is: {interest}")
+# # Creating BMI Calculator
