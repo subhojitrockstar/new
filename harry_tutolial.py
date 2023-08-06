@@ -7,3 +7,8 @@
 # print("The interest is: " + str(interest))
 # print(f"The loan amount is: {loan_amount} and the interest is: {interest}")
 # # Creating BMI Calculator
+# weight = float(input('Enter weight in kgs: '))
+# height = float(input('Enter height in meters: '))
+#
+# bmi = weight / (height * height)
+# print('BMI is:', bmi)
