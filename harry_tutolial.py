@@ -12,22 +12,23 @@
 #
 # bmi = weight / (height * height)
 # print('BMI is:', bmi)
-# Initial list of products
-products = ['phone', 'tablet', 'computer', 'laptop', 'journal']
 
-# Displaying the initial list of products
-print(f"The current list of items is: {products}")
-
-# Removing products
-remove_item = input("Enter the product to remove: ")
-products.remove(remove_item)
-
-# Displaying the list after removing the product
-print(f"The current list of items is: {products}")
-
-# Adding products
-add_item = input("Enter the product to add: ")
-products.append(add_item)
-
-# Displaying the list after adding the product
-print(f"The current list of items is: {products}")
+# # Initial list of products
+# products = ['phone', 'tablet', 'computer', 'laptop', 'journal']
+#
+# # Displaying the initial list of products
+# print(f"The current list of items is: {products}")
+#
+# # Removing products
+# remove_item = input("Enter the product to remove: ")
+# products.remove(remove_item)
+#
+# # Displaying the list after removing the product
+# print(f"The current list of items is: {products}")
+#
+# # Adding products
+# add_item = input("Enter the product to add: ")
+# products.append(add_item)
+#
+# # Displaying the list after adding the product
+# print(f"The current list of items is: {products}")
