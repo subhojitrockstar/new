@@ -51,6 +51,17 @@
 # products = ['phone', 'tablet', 'computer', 'laptop', 'journal']
 # item = input("Enter product name:")
 # print(item in products)
-products = {'phone': 100,'tablet': 200,'computer': 300,'laptop': 400,'journal': 40}
-product=input("Enter the product name:")
-print(f"the price of {product} is {products[product]}")
+# products = {'phone': 100,'tablet': 200,'computer': 300,'laptop': 400,'journal': 40}
+# product=input("Enter the product name:")
+# print(f"the price of {product} is {products[product]}")
+
+#
+# products = {'phone': 100, 'tablet': 200, 'computer': 300, 'laptop': 400, 'journal': 40}
+#
+# price_change_product = input("Enter product: ")
+# price_update = input(f"Enter new price for {price_change_product}: ")
+# products[price_change_product] = price_update
+#
+# print(f"The new price of {price_change_product} is {products[price_change_product]}")
+#
+
